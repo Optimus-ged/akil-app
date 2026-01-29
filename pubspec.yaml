@@ -1,0 +1,75 @@
+name: akilapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  dio: ^5.9.1
+  hydrated_bloc: ^10.1.1
+  flutter_bloc: ^9.1.1
+  bloc: ^9.2.0
+  equatable: ^2.0.8
+  path_provider: ^2.1.5
+  cached_network_image: ^3.4.1
+  velocity_x: ^4.3.1
+  fluttertoast: 8.2.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+  fonts:
+    - family: PlusJakartaSans-Bold
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-Bold.ttf
+    - family: PlusJakartaSans-BoldItalic
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-BoldItalic.ttf
+    - family: PlusJakartaSans-ExtraBold
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-ExtraBold.ttf
+    - family: PlusJakartaSans-ExtraBoldItalic
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-ExtraBoldItalic.ttf
+    - family: PlusJakartaSans-ExtraLight
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-ExtraLight.ttf
+    - family: PlusJakartaSans-ExtraLightItalic
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-ExtraLightItalic.ttf
+    - family: PlusJakartaSans-Italic
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-Italic.ttf
+    - family: PlusJakartaSans-Light
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-Light.ttf
+    - family: PlusJakartaSans-LightItalic
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-LightItalic.ttf
+    - family: PlusJakartaSans-Medium
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-Medium.ttf
+    - family: PlusJakartaSans-MediumItalic
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-MediumItalic.ttf
+    - family: PlusJakartaSans-Regular
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-ExtraLight.ttf
+    - family: PlusJakartaSans-SemiBold
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-SemiBold.ttf
+    - family: PlusJakartaSans-SemiBoldItalic
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-SemiBoldItalic.ttf
